@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#880e4F"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/text_input_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/credentials_bg"
+        android:drawableLeft="@drawable/icon_username"
+        android:hint="Email"
+        android:inputType="textWebEmailAddress" />
+
+    <EditText
+        android:id="@+id/text_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/credentials_bg"
+        android:drawableLeft="@drawable/icon_password"
+        android:hint="Password"
+        android:inputType="textWebPassword" />
+
+
+</LinearLayout>
